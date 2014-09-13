@@ -1,0 +1,18 @@
+.imagenbotom { 
+background-repeat:no-repeat; 
+background-position:center; 
+width:30px; 
+height:30px; 
+} 
+.especialimagen{ 
+background-repeat:no-repeat; 
+background-position:center; 
+width:70px; 
+height:30px; 
+} 
+.imagenespecial{ 
+background-repeat:no-repeat; 
+background-position:center; 
+width:30px; 
+height:70px; 					
+} 

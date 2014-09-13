@@ -1,0 +1,104 @@
+<html > 
+	<head> 
+		<title>Calculadora</title> 
+		<link rel="stylesheet" type="text/css" href="css/calculadora.css">
+ 		<script language="JavaScript"src="script/calculadorajs.js"> </script>
+
+	</head> 
+		<body > 
+		<div align="center"> 
+		<table border="2">
+			<tr >
+				<td> 
+				<table>
+					<form name="formi" action="" method=""> 
+						<th colspan="4" >
+							<input type="text" value=0 style="text-align:right" readonly="readonly" name="ver"/>
+						</th> 
+						<tr>
+							<b> 
+								<td width="34">
+									<b>
+										<b> 
+											<input type="button" name="c" value="C" class="imagenbotom" style="text-align:center" onclick="nada()" /> 
+										</b>
+									</b>
+								</td> 
+							</b>
+							<td width="33"><input type="button" name="dividir" value="/" class="imagenbotom" style="text-align:center" onclick="operacion(4)" />
+							</td>
+							<td width="33"><input type="button" name="multiplicar" value="*" class="imagenbotom" style="text-align:center" onclick="operacion(3)"/>
+							</td>
+							<td width="31"><input type="button" name="menos" value="-" class="imagenbotom" style="text-align:center" onclick="operacion(2)"/>
+							</td>
+							<td>
+								<input type="button"name="pi" value="Pi" class="imagenbotom" style="text-align:center" onclick="resultadoPi()"/>
+							</td>
+						</tr> 
+						<tr>
+						<td>
+							<input type="button" name="siete" value=7 class="imagenbotom" style="text-align:center" onclick="mostrar(7)"/>
+						</td>
+						<td>
+							<input type="button" onclick="mostrar(8)"name="ocho" value="8" class="imagenbotom" style="text-align:center"/>
+						</td>
+						<td>
+							<input type="button" name="nueve" value="9" onclick="mostrar(9)" class="imagenbotom" style="text-align:center"/>
+						</td> 
+						<td rowspan="2">
+							<input type="button" size="20" name="mas" value="+" class="imagenespecial" style="text-align:center" onclick="operacion(1)"/>
+						</td> 
+						<td>
+							<input type="button"name="ran" value="Ran" class="imagenbotom" style="text-align:center" onclick="resultadoRan()"/>
+						</td>
+						</tr> 
+						<tr>
+							<td>
+								<input type="button" name="cuatro" value="4" onclick="mostrar(4)" class="imagenbotom" style="text-align:center"/>
+							</td>
+							<td>
+								<input type="button" name="cinco" onclick="mostrar(5)" value="5" class="imagenbotom" style="text-align:center"/>
+							</td>
+							<td>
+								<input type="button" name="seis" onclick="mostrar(6)" value="6" class="imagenbotom" style="text-align:center"/>
+							</td>
+							<td>
+								<input type="button"name="cos" value="Cos" class="imagenbotom" style="text-align:center" onclick="resultadoCos()"/>
+							</td>
+						</tr> 
+						<tr>
+							<td>
+								<input type="button" name="uno" value="1" onclick="mostrar(1)" class="imagenbotom" style="text-align:center"/>
+							</td>
+							<td>
+								<input type="button"name="dos" onclick="mostrar(2)" value="2" class="imagenbotom" style="text-align:center"/>
+							</td>
+							<td>
+								<input type="button" name="tres" value="3" onclick="mostrar(3)" class="imagenbotom" style="text-align:center"/>
+							</td>
+							<td rowspan="2">
+								<input type="button" name="igual" value="=" class="imagenespecial" style="text-align:center" onclick="resultado()"/>
+							</td>
+							<td>
+								<input type="button"name="raiz" value="Sin" class="imagenbotom" style="text-align:center" onclick="resultadoSeno()"/>
+							</td>
+						</tr> 
+						<tr>
+							<td colspan="2">
+								<input type="button" name="cero" value="0" class="especialimagen" style="text-align:center" onclick="mostrar(0)"/>
+							</td>
+							<td>
+								<input type="button"name="punto" value="." class="imagenbotom" style="text-align:center" onclick="mostrar(.)"/>
+							</td>
+							<td>
+								<input type="button"name="raiz" value="rz" class="imagenbotom" style="text-align:center" onclick="resultadoRaiz()"/>
+							</td>
+						</tr> 
+					</form> 
+				</table>
+				</td>
+			</tr>
+		</table> 
+		</div> 
+	</body> 
+</html> 

@@ -1,0 +1,23 @@
+img.desplazada {
+	position: relative;
+	top: 8em;
+}
+
+img.absoluto {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+div {
+	border: 2px solid #CCC;
+	padding: 1em;
+	margin: 1em 0 1em 4em;
+	width: 300px;
+}
+
+div.absoluto {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
